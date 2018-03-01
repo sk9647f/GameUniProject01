@@ -3,4 +3,7 @@ Main camera and brought up camera switch being active when "m" is pressed. This 
 Minimap in corner follows one of the sprites and directly renders onto a side texture. This is done through using a render texture placed onto a raw image within the canvas
 Unsure if its my PC but framerate issues start to occur when running, may be due to the use of 3 cameras or the render texture.
 
+Minimap camera has a camera culling mask for a new minimap layer. Main camera has a culling mask for everything but the new minimap layer
+Small objects/sprites can be placed into the minimap layer to represent the physical objects (Minimap icons can be added)
+
 Edit - Adding the code to the scene placed in adjacent branch
