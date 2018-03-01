@@ -8,4 +8,4 @@ Small objects/sprites can be placed into the minimap layer to represent the phys
 
 Notes - 
 Adding the code to the scene placed in adjacent branch 
-Having issues disabling the render texture at correct times
+Having issues disabling the render texture at correct times  (Disables the camera but not the gameobject)
