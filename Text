@@ -6,4 +6,6 @@ Unsure if its my PC but framerate issues start to occur when running, may be due
 Minimap camera has a camera culling mask for a new minimap layer. Main camera has a culling mask for everything but the new minimap layer
 Small objects/sprites can be placed into the minimap layer to represent the physical objects (Minimap icons can be added)
 
-Edit - Adding the code to the scene placed in adjacent branch
+Notes - 
+Adding the code to the scene placed in adjacent branch 
+Having issues disabling the render texture at correct times
