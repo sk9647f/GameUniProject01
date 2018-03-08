@@ -7,5 +7,15 @@ Minimap camera has a camera culling mask for a new minimap layer. Main camera ha
 Small objects/sprites can be placed into the minimap layer to represent the physical objects (Minimap icons can be added)
 
 Notes - 
-Adding the code to the scene placed in adjacent branch (sorted)
-Having issues disabling the render texture at correct times  (Disables the camera but not the gameobject)
+Adding the code to the scene placed in adjacent branch (Fixed)
+Having issues disabling the render texture at correct times  (Fixed)
+
+
+Shop Project folder, needs unzipping-
+Shop takes an item from one side and moves it to the other and dynamically moves the ui around. 
+Shop can have items changed via the Unity editor. On the panel, the viewport, content, in the shop script the length of the array can be increased/decreased.
+As the array changes size the number of active instances increases and allows for customizable items to be placed into the shop.
+
+Notes - 
+Shop ui will need to be messed around with to show proper sizes.
+Left shop will need to be the player's inventory, so the items are taken from an inventory array that will be saved to the character.
